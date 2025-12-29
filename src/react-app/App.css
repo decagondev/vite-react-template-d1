@@ -3,6 +3,11 @@
 	margin: 0 auto;
 	padding: 2rem;
 	text-align: center;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .logo {
@@ -40,6 +45,79 @@
 	padding: 2em;
 }
 
-.read-the-docs {
+.header {
+	margin-bottom: 3rem;
+}
+
+.header h1 {
+	font-size: 3.5em;
+	margin: 0 0 0.5em 0;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.subtitle {
+	font-size: 1.2em;
 	color: #888;
+	margin: 0;
+}
+
+.hello-card {
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	border-radius: 16px;
+	margin: 2em 0;
+	color: white;
+	min-height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hello-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 15px 50px rgba(102, 126, 234, 0.4);
+}
+
+.hello-message {
+	padding: 1em;
+}
+
+.hello-message h2 {
+	margin: 0;
+	font-size: 2.5em;
+	font-weight: 600;
+	text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hello-message.error {
+	color: #ff6b6b;
+}
+
+.hello-message p {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+.tech-stack {
+	margin-top: 4rem;
+}
+
+.tech-label {
+	color: #888;
+	font-size: 0.9em;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.logos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
 }
