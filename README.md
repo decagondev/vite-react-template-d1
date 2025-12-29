@@ -25,6 +25,8 @@ This application demonstrates a complete full-stack integration:
 
 ## 🚀 Quick Start
 
+> 📖 **New to this template?** Check out the [Complete Setup Guide](./docs/setup.md) for detailed step-by-step instructions on creating a new repository, setting up Cloudflare, and deploying to production.
+
 ### Prerequisites
 
 - **Node.js** 18+ installed
@@ -314,6 +316,13 @@ npm run cf-typegen
 ```
 
 ## 📚 Learn More
+
+### Documentation
+
+- 📖 [Complete Setup Guide](./docs/setup.md) - Step-by-step guide from template to production deployment
+- 📋 [Product Requirements Document](./docs/PRD.md) - Detailed requirements and implementation status
+
+### External Resources
 
 - [Cloudflare Workers Documentation](https://developers.cloudflare.com/workers/)
 - [Cloudflare D1 Documentation](https://developers.cloudflare.com/d1/)
