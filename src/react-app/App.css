@@ -102,6 +102,109 @@
 	font-size: 1.2em;
 }
 
+.error-message {
+	background: rgba(255, 107, 107, 0.2);
+	border: 1px solid rgba(255, 107, 107, 0.5);
+	border-radius: 8px;
+	padding: 0.75em 1em;
+	margin-bottom: 1em;
+}
+
+.error-message p {
+	color: #ff6b6b;
+	font-size: 0.9em;
+	margin: 0;
+}
+
+.edit-button,
+.save-button,
+.cancel-button {
+	background: rgba(255, 255, 255, 0.2);
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	color: white;
+	padding: 0.75em 1.5em;
+	border-radius: 8px;
+	font-size: 1em;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	margin-top: 1em;
+}
+
+.edit-button:hover:not(:disabled) {
+	background: rgba(255, 255, 255, 0.3);
+	border-color: rgba(255, 255, 255, 0.8);
+	transform: translateY(-2px);
+}
+
+.edit-button:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.edit-form {
+	width: 100%;
+	max-width: 500px;
+}
+
+.message-input {
+	width: 100%;
+	padding: 1em;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 8px;
+	background: rgba(255, 255, 255, 0.1);
+	color: white;
+	font-size: 1.2em;
+	margin-bottom: 1em;
+	box-sizing: border-box;
+}
+
+.message-input::placeholder {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.message-input:focus {
+	outline: none;
+	border-color: rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.message-input:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.button-group {
+	display: flex;
+	gap: 1em;
+	justify-content: center;
+}
+
+.save-button {
+	background: rgba(76, 175, 80, 0.3);
+	border-color: rgba(76, 175, 80, 0.6);
+}
+
+.save-button:hover:not(:disabled) {
+	background: rgba(76, 175, 80, 0.4);
+	border-color: rgba(76, 175, 80, 0.8);
+}
+
+.save-button:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.cancel-button {
+	background: rgba(158, 158, 158, 0.3);
+	border-color: rgba(158, 158, 158, 0.6);
+}
+
+.cancel-button:hover:not(:disabled) {
+	background: rgba(158, 158, 158, 0.4);
+	border-color: rgba(158, 158, 158, 0.8);
+}
+
 .tech-stack {
 	margin-top: 4rem;
 }
